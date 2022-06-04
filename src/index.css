@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  background-color: rgb(25, 83, 122);
+  margin: 0;
+  padding: 0;
+}
+.header{
+  background-color: rgb(11, 22, 55);
+  color: white;
+  font-size: 32px;
+  padding: 10px;
+}

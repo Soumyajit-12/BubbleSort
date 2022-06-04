@@ -1,0 +1,32 @@
+.array-container,.buttons{
+    max-width: 70%;
+    margin: 20px auto;
+    background-color: rgb(114, 186, 235);
+    border-radius: 20px;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.5);
+}
+.array-container{
+    padding: 30px 20px 0 20px;
+    margin-top: 40px;
+}
+.array-bar{
+    width: 30px;
+    background-color: rgb(47, 47, 230);
+    display: inline-block;
+    align-items: center;
+    margin: 5px 5px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+.buttons svg{
+    cursor: pointer;
+    color: rgb(11, 22, 55);
+}
+.buttons svg:hover{
+    transform: translateY(-1px);
+    color: rgb(47, 47, 230);
+}
